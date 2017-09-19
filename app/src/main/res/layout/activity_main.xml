@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.w3xplorers.mvpexample.login.LoginActivity">
+
+    <EditText
+        android:id="@+id/loginActivity_firstName_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        tools:text="First name"/>
+
+    <EditText
+        android:id="@+id/loginActivity_lastName_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        tools:text="Last name"/>
+
+    <Button
+        android:id="@+id/loginActivity_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"/>
+</LinearLayout>
